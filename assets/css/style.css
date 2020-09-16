@@ -1,0 +1,15 @@
+/* style.css is inside of the css folder to access the imgage folder you need to use the ../ to go back into the main assets folder
+    ../ = going out of one folder
+*/
+body {
+  background-image: url("../images/background5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+  }
